@@ -114,7 +114,7 @@ class ChainOfResponsibilityTranslator {
  */
 interface FunctionHandler extends Function<String, String> {} // Interface for links in the chain.
 
-class ChainTranslator {
+class FlexibleChainTranslator {
 
     // English translators are in separated classes.
     private FunctionHandler e1 = i -> i.replace("1", "<one>");
